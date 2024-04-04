@@ -24,13 +24,14 @@ https://github.com/dayoonkang/3_AnimalMatch/assets/150164152/15101331-d302-4865-
 - Visual Studio 2022 C#
 
 ## 🌟 주요 기능
-- 게임이 끝났을 때, Game Over Pannel 등장
-- Game Over Pannel에서 Restart 버튼 활성화
-- 같은 카드라고 하면, 뒤집힌 채로 유지
-- 다른 카드라고 하면, 다시 뒤집어져서 보이지 않음
+- 게임 시작 시, 5초간 정답 카드 공개
+- 50초의 타임리밋, 줄어드는 Slider와 Text 
+- 같은 카드라고 하면, 뒤집힌 채로 유지, 재 클릭 불가
+- 다른 카드라고 하면, 다시 뒤집어짐, 재 클릭 가능
+- 카드가 뒤집히는 모션을 scale/ticktime을 계산하여 조절
+- GameBoard index와 card index를 설정하여 매 판마다 랜덤한 카드 위치 설정
 - 50초 내에 모두 찾으면 성공, 남은 카드가 있으면 실패
-- 필요한 에셋을 무료 저작권 사이트에서 다운로드하여 활용
-- 이미지 Padding/Offset 값을 설정하여 이미지 Slice
+- End Game Widget에서 성공/실패 여부 확인, Restart Button
 
 ## 💪 이 프로젝트를 통해 무엇을 배우셨나요?
 - 필요한 에셋을 무료 저작권 사이트에서 다운로드하여 활용
